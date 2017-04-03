@@ -1,7 +1,7 @@
 FROM golang:alpine
 MAINTAINER "Ferdinand Birk <ferdinand.birk@uni-ulm.de>"
 ENV PACKER_VERSION 0.12.3
-ENV TERRAFORM_VERSION 0.9.1
+ENV TERRAFORM_VERSION 0.9.2
 ENV CONSUL_VERSION 0.7.5
 RUN apk add --update git bash unzip wget curl
 WORKDIR /tmp/
